@@ -1,0 +1,113 @@
+{
+	"clients": [
+		{
+			"id": 2,
+			"firstname": "Nodirbek",
+			"lastname": "Yakkubov",
+			"email": "nodirbekyakkubov@gmail.com",
+			"phone": "+998932584141",
+			"date_of_birth": "10-08-2002",
+			"address": "Toshkent,Uzbekistan",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"id": 3,
+			"firstname": "Jahongir",
+			"lastname": "Vahidov",
+			"email": "javongir@gmail.com",
+			"phone": "+998995412823",
+			"date_of_birth": "02-01-2004",
+			"address": "Toshkent,Uzbekistan",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"id": 1,
+			"firstname": "sohib",
+			"lastname": "Abdusatorov",
+			"email": "nodirbek@gil.com",
+			"phone": "+998974012523",
+			"date_of_birth": "20-04-2004",
+			"address": "Toshkent,Uzbekistan",
+			"created_at": "2022-08-12T02:20:09.137Z",
+			"updated_at": "2022-08-12T04:54:44.697Z"
+		}
+	],
+	"books": [
+		{
+			"id": 1001,
+			"isbn": "0751532711 ",
+			"title": "Rich Dad, Poor Dad",
+			"gener": "story of author's life",
+			"description": "Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his 'rich dad' — and the ways in which both men shaped his thoughts about money and investing. ",
+			"author": "Robert Kiyasaki",
+			"publish_year": 2007,
+			"cover_photo_url": "https://bookland.tn/book/rich-dad-poor-dad/",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"id": 1002,
+			"isbn": "0307463745",
+			"title": "Rework",
+			"gener": "business books",
+			"description": "What you really need to do is stop talking and start working. This book shows you the way. You'll learn how to be more productive, how to get exposure without breaking the bank, and tons more counterintuitive ideas that will inspire and provoke you.",
+			"author": "Jason Fried",
+			"publish_year": 2010,
+			"cover_photo_url": "https://www.amazon.com/Rework-Jason-Fried/dp/0307463745?asin=0307463745&revisionId=&format=4&depth=1",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"id": 1003,
+			"isbn": "0735211299",
+			"title": "Avtomatic, Habit",
+			"gener": "Psychology and Counseling",
+			"description": "If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.",
+			"author": "James Clear",
+			"publish_year": 2018,
+			"cover_photo_url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299?asin=0735211299&revisionId=&format=4&depth=1",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"id": 1004,
+			"isbn": "0751532711 ",
+			"title": "Rich Dad, ggjlsls",
+			"gener": "story of author's life",
+			"description": "Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his 'rich dad' — and the ways in which both men shaped his thoughts about money and investing. ",
+			"author": "Robert Kiyasaki",
+			"publish_year": 2007,
+			"cover_photo_url": "https://bookland.tn/book/rich-dad-poor-dad/",
+			"created_at": "2022-08-12T05:01:04.323Z",
+			"updated_at": "2022-08-12T05:03:18.771Z"
+		}
+	],
+	"ClientAndBooks": [
+		{
+			"client_id": 1,
+			"book_id": 1001,
+			"booked_day": "20-01-2022",
+			"returned_day": "",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"client_id": 3,
+			"book_id": 1002,
+			"booked_day": "25-05-2022",
+			"returned_day": "26-06-2022",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		},
+		{
+			"client_id": 2,
+			"book_id": 1003,
+			"booked_day": "24-07-2022",
+			"returned_day": "25-08-2022",
+			"created_at": "2022-08-11T04:29:52.200Z",
+			"updated_at": "2022-08-11T04:29:52.200Z"
+		}
+	]
+}
